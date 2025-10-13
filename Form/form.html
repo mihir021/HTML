@@ -1,0 +1,127 @@
+<html>
+    <body>
+        <form action="/submit" method="get" align="center">
+            <fieldset>
+                <legend>Login</legend>
+                <table align="center">
+                    <tr>
+                        <td><label for="uname">Username:</label></td>
+                        <td>
+                            <input type="text" id="uname" name="uname"
+                                maxlength="10"
+                                placeholder="Enter username" autofocus
+                                autocomplete="on" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pwd">Password:</label></td>
+                        <td>
+                            <input type="password" id="pwd" name="pwd"
+                                maxlength="5"
+                                placeholder="Enter password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> email : </td>
+                        <td> <input type="email" placeholder="enter email"
+                                name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Phone no :</td>
+                        <td> <input type="tel"
+                                placeholder="Enetr phone number "
+                                name="phone" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Date of birth </td>
+                        <td>
+                            <input type="date" min="2025-09-07"
+                                max="2025-12-31">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Age :</td>
+                        <td>
+                            <input type="number" name="age" min="1" max="18"
+                                step="1" value="18">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> rate this form (0 - 50)</td>
+                        <td>
+                            <input type="range" min="0" max="50" name="rate">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Gender </td>
+                        <td> <input type="radio" name="g1" value="male" checked>
+                            male </td>
+                        <td> <input type="radio" name="g1" value="female">
+                            female</td>
+                    </tr>
+                    <tr>
+                        <td> Hobbies </td>
+                        <td> <input type="checkbox" value="music" name="h1">
+                            music </td>
+                        <td> <input type="checkbox" value="abc" name="h1"> abc
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Color </td>
+                        <td> <input type="color" name="fevC" value="red"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="hidden" name="uid" value="12345">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Address </td>
+                        <td> <textarea rows="25" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="branch"> select branch: </label>
+                        </td>
+                        <td>
+                            <select name="select_branch" id="branch">
+                                <option value="select" selected disabled hidden>
+                                    select branch
+                                </option>
+                                <optgroup label="computer">
+                                    <option value="CSE">CSE</option>
+                                    <option value="CST">CST</option>
+                                </optgroup>
+                                <optgroup label="other">
+                                    <option value="EC">EC</option>
+                                    <option value="Civil">Civil</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city"> City </label>
+                        </td>
+                        <td>
+                            <input list="city1" name="city" id="city">
+                            <datalist id="city1">
+                                <option value="surat"> </option>
+                                <option value="ahm"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

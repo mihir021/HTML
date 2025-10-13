@@ -1,0 +1,92 @@
+<html>
+    <body>
+        <form action="/s" method="get">
+            <fieldset>
+                <legend> Customer details</legend>
+                <table border="1">
+                    <tr>
+                        <td> <label for="name"> Enter name :</label></td>
+                        <td> <input type="txt" name="name" id="name"
+                                placeholder="Enter your name"
+                                autocomplete autofocus required></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="number"> Enter number :</label></td>
+                        <td> <input type="number" name id
+                                placeholder="Enter your number"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="email"> Enter Email :</label></td>
+                        <td> <input type="email" required
+                                placeholder="Enter your email"> </td>
+                    </tr>
+                    <tr>
+                        <td> Pizza name :</td>
+                        <td> <input type="checkbox"> simple veg
+                            <input type="checkbox"> 7 chess </td>
+                    </tr>
+                    <tr>
+                        <td> outlet city :</td>
+                        <td>
+                            <select name="list of area">
+                                <option value="list_of_area" selected disabled>
+                                    list fof area
+                                </option>
+                                <option value="a1"> A1</option>
+                                <option value="a2"> A2</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Order date :</td>
+                        <td>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Comment :</td>
+                        <td>
+                            <textarea rows="10" cols="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend> sales orderd form </legend>
+                <table border="1">
+                    <tr>
+                        <td> sale </td>
+                        <td> good </td>
+                        <td> avg </td>
+                        <td> bad </td>
+                    </tr>
+                    <tr>
+                        <td> quality </td>
+                        <td><input type="radio" name="q1" checked></td>
+                        <td><input type="radio" name="q1"></td>
+                        <td><input type="radio" name="q1"></td>
+                    </tr>
+                    <tr>
+                        <td> Quamtity </td>
+                        <td><input type="radio" name="qq1" checked></td>
+                        <td><input type="radio" name="qq1"></td>
+                        <td><input type="radio" name="qq1"></td>
+                    </tr>
+                    <tr>
+                        <td> fresness </td>
+                        <td><input type="radio" name="f1" d></td>
+                        <td><input type="radio" name="f1" checked></td>
+                        <td><input type="radio" name="f1"></td>
+                    </tr>
+                    <tr>
+                        <td> overall rating </td>
+                        <td colspan="3"> 0 <input type="range" min="0" max="10"
+                                name="rate"> 10 </td>
+                    </tr>
+                    <tr> <td align="center" colspan="4"> <input
+                                type="submit"></td></tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

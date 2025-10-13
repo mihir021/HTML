@@ -1,0 +1,110 @@
+<html>
+    <body>
+        <h1> <center>registration Form</center> </h1>
+        <form action="/done" method="get">
+            <table border="1" align="center">
+                <tr>
+                    <td> <label for="fname"> Enter first name :</label></td>
+                    <td>
+                        <input type="text" id="fname" name="fname"
+                            placeholder="Enter first name" autofocus
+                            autocomplete="on" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="lname"> Enter last name :</label></td>
+                    <td>
+                        <input type="text" id="lname" name="lname"
+                            autofocus
+                            autocomplete="on" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password:</label></td>
+                    <td>
+                        <input type="password" id="pwd" name="pwd"
+                            maxlength="7" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="rpwd"> Renter Password:</label></td>
+                    <td>
+                        <input type="password" id="rpwd" name="rpwd"
+                            maxlength="7" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mail"> Enter your email </label></td>
+                    <td> <input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mnumber"> Enter your mobile number
+                        </label></td>
+                    <td> <input type="tel" name="mnumber" required
+                            maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="add"> Enter youer address </label></td>
+                    <td> <textarea name="add" id="add" rows="10"
+                            cols="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="g1"> select your gender </label></td>
+                    <td colspan="2"> <input type="radio" name="g1" value="male">
+                        male
+                        <input type="radio" name="g1" value="female" checked>
+                        female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        select your hobbies
+                    </td>
+                    <td colspan="2"><input type="checkbox" value="music"
+                            name="h1">h1
+                        <input type="checkbox" value="music" name="h2">h2
+                        <input type="checkbox" value="music" name="h3"
+                            checked>h3
+                    </td>
+                </tr>
+                <tr>
+                    <td> Selecte your DOB </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Selecte your c</td>
+                    <td>
+                        <select name="selecte_c" id="c">
+                            <option value="select" selected disabled hidden>
+                                select country
+                            </option>
+                            <option value="C1">C1</option>
+                            <option value="C2">C2</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fileupload"> uplode file :</label>
+                    </td>
+                    <td>
+                        <input type="file" name="fname" id="fileupload"
+                            accept=".jpeg" multiple>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <fieldset>
+                            <input type="submit" value="save my data">
+                            <input type="reset" value="reset data">
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
