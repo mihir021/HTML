@@ -3,11 +3,17 @@
 The `HTML` directory is organized into several sub-folders, each focusing on a specific aspect of web development:
 /HTML
 ├── 📁 .idea/            (IDE configuration files for JetBrains)
+
 ├── 📁 Basic tags in HTML/ (Examples of fundamental HTML tags)
+
 ├── 📁 Form/             (HTML forms and input elements)
+
 ├── 📁 Other pages/       (Miscellaneous HTML pages)
+
 ├── 📁 Reading files/     (Scripts or examples for file handling)
+
 ├── 📁 SVG/               (Scalable Vector Graphics examples)
+
 └── 📁 Table/             (A detailed collection of HTML table examples)
 
 ---
