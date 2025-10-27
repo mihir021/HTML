@@ -1,0 +1,28 @@
+---------------------------------
+Type of css
+---------------------------------
+
+    syntax ->
+         selctor 
+            {
+             property : value ;
+             property : value ;
+            }
+
+1. inline css (same line)
+2. internal css
+3. External css
+
+---------------------------------
+Type of selector 
+---------------------------------
+
+1. element selector (tag name)
+2. Id selctor (#)
+3. class selctor (.class)
+4. Univarsal selctor (*)
+5. Descendant selctor (space)
+6. child selctor (>)
+7. attribute selector (input[Type=" "])
+8. grouping selector (selctor,selector)
+
