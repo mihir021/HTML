@@ -26,3 +26,85 @@ Type of selector
 7. attribute selector (input[Type=" "])
 8. grouping selector (selctor,selector)
 
+---------------------------------
+css colors
+---------------------------------
+
+1. colorname
+2. hexa code
+3. rgb(0 to 255)
+
+---------------------------------
+BackGround-rules
+---------------------------------
+
+1. BackGround color
+colorname #hexaCode rgb()
+
+2. BackGround-image
+url("imageName")
+
+3. BackGround-repeat
+repeat-x repeat-y no-repeat
+
+MCQ
+note : shortHand
+BackGround = pink url("i.jpg") repeat-x
+
+---------------------------------
+css text Manipulation
+---------------------------------
+
+1. text-indent
+--> by defualt value is 0
+--> negitive values are allowed
+
+2. text-decoration
+--> none 
+--> overline
+--> underline
+--> line-through
+
+3. text-transform
+--> none 
+--> uppercase
+--> lowercase
+--> capitalize
+
+4. text-align
+--> left(by defualt)
+--> right
+--> center
+--> justify
+
+---------------------------------
+css Fonts
+---------------------------------
+
+1. font-family
+
+2. font-style
+--> normal 
+--> italic
+
+3. font-weight
+--> normal 
+--> bold
+
+4. font-variant
+--> normal 
+--> small-caps
+
+5. font-size
+--> medium 
+--> small 
+--> x-small 
+--> xx-small
+--> large
+--> x-large
+--> xx-large
+--> px
+--> %
+
+
+
