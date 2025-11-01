@@ -106,5 +106,82 @@ css Fonts
 --> px
 --> %
 
+---------------------------------
+css text controls
+---------------------------------
+--> letter-spacing
+--> word-spacing
+
+---------------------------------
+css borders
+---------------------------------
+
+1. border-style
+- solid - dotted - dashed - double
+
+2. border-width
+- px,pt,cm,em
+- pre-defina
+    - thin thic medium
+
+3. border-color
+colorname rgb() #hexaCode
+
+4. border-radius
+- px
+- % 
+
+---------------------------------
+css borders
+---------------------------------
+
+--> pseudo class 
+1. :link 
+2. :visited
+3. :hover
+4. :active 
+5. :focus 
+6. :nth child(n)
+7. :not(selector)
+8. :checked
+
+--> syntex 
+
+selector:pseudoclass
+{
+    property : value;
+}
+
+
+---------------------------------
+pseudo elements
+---------------------------------
+
+::first-line
+::first-letter
+::befor
+::marker 
+::selection
+
+syntext :
+selector::pseudo-element 
+{
+    proparty:value
+}
+
+---------------------------------
+text proparty
+---------------------------------
+
+1. line-height 
+    -> px , %
+    px , %
+    -> normal
+note -> negitive value are not allowed
+
+2. text-shadow
+
+text-shadow: 2px epx 5px red
+
 
 
