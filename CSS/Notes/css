@@ -183,5 +183,81 @@ note -> negitive value are not allowed
 
 text-shadow: 2px epx 5px red
 
+---------------------------------
+box mode
+---------------------------------
+
+1. margin
+2. padding
+3. height
+4. width
+5. box shadow
+    --> h-offset  v-offset blur color
+6. box sizing
+    --> border-box content-box
+
+---------------------------------
+display
+---------------------------------
+
+1. none
+2. inline 
+3. inline-block 
+4. block
+
+---------------------------------
+Flex ( layout design )
+---------------------------------
+
+1. display
+    --> Flex
+    --> inline-Flex
+
+2. Flex-direction
+    --> row (by defualt)
+    --> roe reversed 
+    --> column
+    --> column reverse
+
+3. justify-content
+    --> Flex-start
+    --> Flex-end
+    --> center
+    --> space-between
+    --> space-around
+    --> space-evenly
+
+4. align-items
+    --> stretch
+    --> Flex-starts
+    --> Flex-end
+    --> center
+
+5. Flex-wrap
+    --> nowrap (by defualt)
+    --> wrap
+    --> wrap-reverse
+
+6. Gap
+    --> px
+    --> %
+
+7. order    
+    --> 0 (defualt)
+    --> +ve
+    --> -ve
+    Note : all items display in ascending order
+
+---------------------------------
+Grid
+---------------------------------
+
+    --> display:Grid
+    --> Grid-template-columns
+    --> Grid-template-rows
+    --> Gap
+    --> Grid-column
+    --> Grid-row
+
 
 
