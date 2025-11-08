@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+            }
+            .box1{
+                background-color: red;
+                position: static;
+            }
+            .box2{
+                background-color: rgb(47, 0, 255);
+                position: relative;
+                left: 30px;
+                top: 20px;
+            }
+            .box3{
+                background-color: rgb(255, 213, 0);
+                position: absolute;
+                top: 50px;
+                left: 100px;
+            }
+            .box4{
+                background-color: green;
+                bottom: 10px;
+                right: 10px;
+                position: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1"> static </div>
+        <div class="box2"> relative </div>
+        <div class="box3"> absolute </div>
+        <div class="box4"> fixed </div>
+    </body>
+</html>

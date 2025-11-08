@@ -259,5 +259,13 @@ Grid
     --> Grid-column
     --> Grid-row
 
+---------------------------------
+positioning (left,bottom,right,top)
+---------------------------------
 
-
+    --> static
+    --> relative
+    --> absolutes
+    --> fixed
+    --> sticky
+    --> z-index (level wise)
