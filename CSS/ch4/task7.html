@@ -1,0 +1,83 @@
+<!-- write html and css script to digne a sinup form having filed like 
+    user name 
+        -> while hovring it bc shoude be turn yellow 
+    pass
+        -> while hovring it bc shoude be turn pink 
+    chioces of sports 
+        like criket , banminton , tanis
+        -> while cliking sports and gender txt colout chnged to red 
+    inculde gender fild 
+         while cliking sports and gender txt colout chnged to red 
+    submit and reset 
+    submit and reset txt shoude change bule while hovring -->
+
+<html>
+    <head>
+        <style>
+            input[type=text]:hover{
+                background-color: yellow;
+            }
+            input[type=password]:hover{
+                background-color: pink;
+            }
+            input[type=checkbox]:checked + label{
+                background-color: rgb(255, 0, 0);
+            }
+             input[type=radio]:checked + label{
+                background-color: rgb(255, 0, 0);
+            }
+            input[type=submit]:hover {
+                font-weight: bold;
+                font-style: italic;
+            }
+            input[type=reset]:hover {
+                font-weight: bold;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <table>
+                <tr>
+                    <td> User name :</td>
+                    <td> <input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td> Enter pass </td>
+                    <td> <input type="password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td> select choice </td>
+                    <td>  
+                        <input type="checkbox" id="2">
+                        <label for="2"> criket </label>
+                    </td>
+                    <td>  
+                        <input type="checkbox" id="1">
+                        <label for="1"> criket1 </label>
+                    </td>
+                    <td>  
+                        <input type="checkbox" id="3">
+                        <label for="3"> criket2 </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="1" id="11">
+                    <label for="11"> male </label></td>
+                    
+                    <td><input type="radio" name="1" id="12"></td>
+                    <td>
+                        <label for="12"> female </label>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> <input type="submit" name="" id=""></td>
+                    <td><input type="reset" name="" id=""></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
