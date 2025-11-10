@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                background-image: conic-gradient(blue,yellow,yellow,blue,yellow,yellow,blue,yellow,yellow,blue);
+                animation-name: example;
+                animation-duration: 2s;
+                animation-iteration-count:infinite;
+                position: relative;
+                animation-direction: alternate-reverse;
+            }
+            @keyframes example{
+                /* form{ background-color: red;}
+                to{background-image: conic-gradient(yellow,blue,blue,yellow,blue,blue,yellow,blue,blue,yellow,blue,
+                blue,yellow)} */
+                0%{background-image: conic-gradient(yellow,blue,blue,yellow,blue,blue,yellow,blue,blue,yellow,blue,
+                blue,yellow) ; top: 0px; left: 0px;}
+                 50%{background-image: conic-gradient(rgb(0, 0, 0),blue,blue,yellow,blue,blue,yellow,blue,blue,yellow,blue,
+                blue,yellow) ; top: 0px; left: 200px;}
+                 100%{background-image: conic-gradient(yellow,blue,blue,yellow,blue,blue,yellow,blue,blue,yellow,blue,
+                blue,yellow) ; top: 0px; left: 0px;}
+                /* 0%{background-color: red;}
+                25%{background-color: tan;}
+                50%{background-color: yellow;}
+                75%{background-color: green;}
+                100%{background-color: blue;} */
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

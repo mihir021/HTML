@@ -33,7 +33,53 @@ css gradients
 Transitions
 ---------------------------------
 
-    --> transition 
+    --> transition-property
     --> transition-delay
     --> transition-duration (by d -> value zero)
+    --> transition-timing-function (by d -> value zero)
+
+---------------------------------
+css multipule columns
+---------------------------------
+
+    --> column-count
+    --> column-gap
+    --> column-rule-style
+        --> solid doted dashed doubled
+    --> column-colour
+        --> 3 type
+    --> column-rule-width
+
+    short hand :
+        column-rule : width style colour
+
+---------------------------------
+css animation
+---------------------------------
+
+    @keyframs
+    --> animation-name
+    --> animation-duration
+    --> animation-delay
+    --> animation-direction
+    --> animation-timing-function
+
+---------------------------------
+2-D transfomation
+---------------------------------
+
+    --> traslate()
+        --> move an element from its current position
+    --> rotate()
+    --> skew()
+        --> skewX()
+        --> skewY()
+    --> scale()
+        --> scaleX()
+        --> scaleY()
+    
+
+
+
+
     

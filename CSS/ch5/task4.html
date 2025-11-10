@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            div{
+                border: 2px solid rgb(0, 0, 0);
+                width: 50%;
+                height: 50%;
+
+                animation-name: example1;
+                animation-duration: 2s;
+                animation-iteration-count:infinite;
+                position: relative;
+
+                transition: all 5s;
+            }
+            @keyframes example1{
+                to{background-color: red; top: 0px; left: 0px;}   
+            }
+            div:hover{
+                transform: scale(0.8,0.8);
+                border-style: dashed;
+            }
+            .c{
+                color: red;
+                height: 50%;
+                width: 50%;
+                background-color: blue;
+                margin: 20px;
+                padding: 20px;
+                border-style: double;
+            }
+            .em{}
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <input type="text" placeholder="enter name">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="em">
+                            <input class="c" type="submit" name="click" id="click">
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>

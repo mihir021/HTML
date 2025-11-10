@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background: red;
+                transition-property: width;
+                transition-duration: 5s;
+                transition-delay: 1s;
+                border: 2px solid black;
+            }
+            .c1:hover{
+                transition-timing-function: linear;
+                width: 500px;
+            }
+            .c2:hover{
+                transition-timing-function: ease; /* default st slow , speed up then slow */
+                                width: 500px;
+
+            }
+            .c3:hover{
+                transition-timing-function: ease-in; /* st slow then speed up */
+                                width: 500px;
+
+            }
+            .c4:hover{
+                transition-timing-function: ease-out; /* st fast then slow */
+                                width: 500px;
+
+            }
+            .c5:hover{
+                transition-timing-function: ease-in-out; /* st and end slow */
+                                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="c1"> </div>
+        <div class="c2"> </div>
+        <div class="c3"> </div>
+        <div class="c4"> </div>
+        <div class="c5"> </div>
+    </body>
+</html>

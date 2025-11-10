@@ -1,7 +1,16 @@
 <html>
     <head>
         <style>
-
+            input{
+                height: 50%;
+                width: 50%;
+                transition: width 2s, height 2s;
+            }
+            input:hover{
+                height: 100%;
+                width: 100%;
+                transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+            }
         </style>
     </head>
     <body>

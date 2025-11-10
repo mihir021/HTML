@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                animation-name: example1;
+                animation-duration: 2s;
+                animation-iteration-count:infinite;
+                background-color: red;
+                position: relative;
+                animation-delay: 2s;
+            }
+            @keyframes example1{
+                0%{background-color: red; top: 0px; left: 0px;}
+                25%{background-color: green; top: 0px; left: 210px;}
+                50%{background-color: blue; top: 210px; left: 210px;}
+                75%{background-color: yellow;top: 210px; left: 0px;}
+                100%{background-color: red;  top: 0px; left: 0px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

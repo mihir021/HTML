@@ -1,0 +1,42 @@
+<!-- use of maultipule trasitions on an single elemnets when the user hovers over the div
+it shoude incres the size , change bacground colour rotate 360deg become circular
+all with soomth delay and diffrant trasition duration -->
+
+<html>
+    <head>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                border: 1px;
+                background-color: black;
+                /* transition: width 5s,height 2s,background-color 4s,; */
+            }
+            div:hover{
+                transition-duration: 2s;
+                transform: scale(1.5,1.5);
+            }
+            div:hover{
+                transition-duration: 3s;
+                background-color: yellow;
+            }
+            div:hover{
+                transition-duration: 4s;
+                transform: rotate(360deg);
+            }
+            div:hover{
+                transition-duration: 4s;
+                transform: rotate(360deg);
+            }
+            div:hover{
+                transition-duration: 4s;
+                border-radius: 100%;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
