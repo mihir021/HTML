@@ -78,6 +78,61 @@ css animation
         --> scaleX()
         --> scaleY()
     
+---------------------------------
+css variables
+---------------------------------
+
+    --> Globle variable
+    --> Local variable
+
+---------------------------------
+Media Queries
+---------------------------------
+
+    --> width and height of the viewport
+    --> width and height of the device
+    --> orientation (landscape , portrait)
+    --> resolution
+
+---------------------------------
+background-position
+---------------------------------
+
+    --> left
+    --> right
+    --> bottom
+    --> top
+    --> x%
+    --> y%
+    --> center
+
+---------------------------------
+background-clip
+---------------------------------
+
+    --> border-box (by default)(padding + content + border)
+    --> padding-box (padding + content)
+    --> content-box (content) 
+
+---------------------------------
+background-size
+---------------------------------
+
+    --> auto - default -> keep the image's orignal size
+    --> cover - scale the img to cover the whole entire
+                element (may crop parts)
+    --> contain - scales the img to fit complitly
+    --> width & height
+
+---------------------------------
+background-attachment
+---------------------------------
+
+    --> fixed
+    --> scroll
+
+
+    
 
 
 
