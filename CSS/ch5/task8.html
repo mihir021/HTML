@@ -1,0 +1,59 @@
+<!-- to dmake three section having 20% height and full width 
+apliefollowing req 
+1> each section has a title and pera
+2> by hovraing each section it shoude be ancloed by a red boader 
+3> by hovraing title of each section its shoyude e\be convated to red colur 
+4> by hovraing para of each section it shoude tacke 2cm of indatation and 1st later be capitale each word
+5> stor all css proper in globle  -->
+
+<html>
+    <head>
+        <style>
+            .container{
+                display: flex;
+                margin: 20px;
+            }
+            .section{
+                height: 20%;                     
+                background-color: #a47a7a;      
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .section h1{
+                color: #2c3e50;
+                text-align: center;
+            }
+            .section p{
+                font-size: 16px;
+                color: #333;
+                text-align: justify;
+            }
+            .section h1:hover{
+                border: 5px solid red ;
+            }
+            .section p:hover{
+                color: red;
+                text-indent: 2cm;
+                text-transform: capitalize;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="section">
+                <h1> ttttttt1 </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab eius impedit soluta, sit beatae, inventore rerum laboriosam nisi molestias voluptates magni harum temporibus non dignissimos dolores aliquid. Repudiandae, minus.</p>
+            </div>
+            <div class="section">
+                <h1> ttttttt2 </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab eius impedit soluta, sit beatae, inventore rerum laboriosam nisi molestias voluptates magni harum temporibus non dignissimos dolores aliquid. Repudiandae, minus.</p>
+            </div>
+            <div class="section">
+                <h1> ttttttt3 </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab eius impedit soluta, sit beatae, inventore rerum laboriosam nisi molestias voluptates magni harum temporibus non dignissimos dolores aliquid. Repudiandae, minus.</p>
+            </div>
+        </div>
+    </body>
+</html>

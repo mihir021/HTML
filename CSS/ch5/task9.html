@@ -1,0 +1,28 @@
+<!-- create a web page witha circular box 
+1> the box is 1000px size and initialy blue colour
+2> on hover box shoude chnge its bc to green soomthly in 2s double its size using scaling and
+    move 50px to right the trasition shoude use is in out time ing function  -->
+
+<html>
+    <head>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+                transition-duration: 2s;
+                position: relative;
+                border-radius: 100%;
+            }
+            div:hover{
+                background-color: red;
+                transition-timing-function: ease-in-out;
+                transform: translateX(100px) scale(2);
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        
+    </body>
+</html>

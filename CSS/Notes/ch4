@@ -1,7 +1,6 @@
 ---------------------------------
 Type of css
 ---------------------------------
-
     syntax ->
          selctor 
             {
@@ -120,9 +119,7 @@ css borders
 - solid - dotted - dashed - double
 
 2. border-width
-- px,pt,cm,em
-- pre-defina
-    - thin thic medium
+- px,pt,cm,em (or) pre define --> thin thic medium
 
 3. border-color
 colorname rgb() #hexaCode
@@ -159,7 +156,8 @@ pseudo elements
 
 ::first-line
 ::first-letter
-::befor
+::before
+::after
 ::marker 
 ::selection
 
@@ -181,7 +179,7 @@ note -> negitive value are not allowed
 
 2. text-shadow
 
-text-shadow: 2px epx 5px red
+text-shadow: 2px epx 5px red (x y z and then color)
 
 ---------------------------------
 box mode
