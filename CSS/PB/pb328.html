@@ -1,0 +1,25 @@
+<html>
+<head>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            animation-name: a;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-timing-function: alternate;
+        }
+        @keyframes a{
+            /* 0%{top: 0px; left: 0px;}
+            100%{top: 1000px; left: 0px;} */
+            50%{ transform: translateY(500px);}
+            100%{ transform: translateY(0px);}
+        }
+    </style>
+</head>
+  <body>
+    <div> </div>
+  </body>
+</html>

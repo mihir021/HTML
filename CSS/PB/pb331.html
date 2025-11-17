@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+    <style>
+        .container{
+            display: flex;
+            margin: 10px;
+        }
+        .t1{
+            background-color: blue;
+            width: 50%;
+        }
+        .t2{
+            background-color: green;
+            width: 50%;
+        }
+
+        @media only screen and (orientation: portrait){
+            .t1{
+                background-color: green;
+                width: 50%;
+            }
+            .t2{
+                background-color: blue;
+                width: 50%;
+            }
+        } 
+    </style>
+</head>
+  <body>
+    <div class="container">
+        <table border="1px" class="t1">
+            <tr>
+                <td> a </td>
+                <td> b </td>
+                <td> c </td>
+            </tr>
+            <tr>
+                <td> a1 </td>
+                <td> b1 </td>
+                <td> c1 </td>
+            </tr>
+            <tr>
+                <td> a </td>
+                <td> b </td>
+                <td> c </td>
+            </tr>
+        </table>
+        <table border="1px" class="t2">
+            <tr>
+                <td> a </td>
+                <td> b </td>
+                <td> c </td>
+            </tr>
+            <tr>
+                <td> a1 </td>
+                <td> b1 </td>
+                <td> c1 </td>
+            </tr>
+            <tr>
+                <td> a </td>
+                <td> b </td>
+                <td> c </td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
